@@ -31,7 +31,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/bulma/css/bulma.min.css"
             ],
             "scripts": []
           },
@@ -127,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "AngularAssignment"
+  "defaultProject": "AngularAssignment",
+  "cli": {
+    "analytics": "259445b7-a532-4c99-a9c3-b5cc185b8c15"
+  }
 }
